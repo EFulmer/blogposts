@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "blogposts"
+version = "0.0.0"
+description = "Code related to different blog posts I write that isn't tied to another project."
+authors = ["Eric Fulmer <2952996+EFulmer@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ipython = "^8.15.0"
+mypy = "^1.5.1"
+pytest = "^7.4.2"
+hypothesis = "^6.84.3"
+sympy = "^1.12"
+pandas = "^2.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
